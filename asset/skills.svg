@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Skills overview">
+  <style>
+    .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .p{opacity:0;animation:in .6s ease-out forwards, float 4s ease-in-out infinite}
+    .h{opacity:0;animation:in .6s ease-out forwards}
+    @keyframes in{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+    @keyframes float{0%,100%{translate:0 0}50%{translate:0 -3px}}
+  </style>
+  <rect width="900" height="270" rx="16" fill="#0f172a"/>
+  <text class="t" x="40" y="45" font-size="22" font-weight="700" fill="#ffffff">Skills at a glance</text>
+
+  <!-- shimmer line -->
+  <rect x="40" y="55" width="820" height="2" rx="1" fill="#1e293b"/>
+  <rect x="40" y="55" width="120" height="2" rx="1" fill="#2dd4bf">
+    <animate attributeName="x" values="40;740;40" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Column 1 -->
+  <text class="t h" x="40" y="88" font-size="15" font-weight="700" fill="#2dd4bf" style="animation-delay:.1s">HOSPITALITY &amp; OTA</text>
+  <g class="t" font-size="14" fill="#e2e8f0">
+    <g class="p" style="animation-delay:.2s,.2s"><rect x="40" y="100" width="230" height="34" rx="17" fill="#134e4a"/><text x="58" y="122">OTA Channel Management</text></g>
+    <g class="p" style="animation-delay:.4s,.6s"><rect x="40" y="144" width="230" height="34" rx="17" fill="#134e4a"/><text x="58" y="166">Pricing &amp; Rate Parity</text></g>
+    <g class="p" style="animation-delay:.6s,1s"><rect x="40" y="188" width="230" height="34" rx="17" fill="#134e4a"/><text x="58" y="210">Partner Training</text></g>
+  </g>
+
+  <!-- Column 2 -->
+  <text class="t h" x="335" y="88" font-size="15" font-weight="700" fill="#38bdf8" style="animation-delay:.5s">BUSINESS</text>
+  <g class="t" font-size="14" fill="#e2e8f0">
+    <g class="p" style="animation-delay:.7s,.3s"><rect x="335" y="100" width="230" height="34" rx="17" fill="#0c4a6e"/><text x="353" y="122">Negotiation &amp; Sales</text></g>
+    <g class="p" style="animation-delay:.9s,.7s"><rect x="335" y="144" width="230" height="34" rx="17" fill="#0c4a6e"/><text x="353" y="166">Business Development</text></g>
+    <g class="p" style="animation-delay:1.1s,1.1s"><rect x="335" y="188" width="230" height="34" rx="17" fill="#0c4a6e"/><text x="353" y="210">Communication</text></g>
+  </g>
+
+  <!-- Column 3 -->
+  <text class="t h" x="630" y="88" font-size="15" font-weight="700" fill="#a78bfa" style="animation-delay:1s">DATA &amp; TECH</text>
+  <g class="t" font-size="14" fill="#e2e8f0">
+    <g class="p" style="animation-delay:1.2s,.4s"><rect x="630" y="100" width="110" height="34" rx="17" fill="#3b2a73"/><text x="650" y="122">Python</text></g>
+    <g class="p" style="animation-delay:1.3s,.8s"><rect x="750" y="100" width="110" height="34" rx="17" fill="#3b2a73"/><text x="785" y="122">SQL</text></g>
+    <g class="p" style="animation-delay:1.4s,1.2s"><rect x="630" y="144" width="110" height="34" rx="17" fill="#3b2a73"/><text x="647" y="166">Power BI</text></g>
+    <g class="p" style="animation-delay:1.5s,.5s"><rect x="750" y="144" width="110" height="34" rx="17" fill="#3b2a73"/><text x="764" y="166">BigQuery</text></g>
+    <g class="p" style="animation-delay:1.6s,.9s"><rect x="630" y="188" width="140" height="34" rx="17" fill="#3b2a73"/><text x="647" y="210">Looker Studio</text></g>
+    <g class="p" style="animation-delay:1.7s,1.3s"><rect x="780" y="188" width="80" height="34" rx="17" fill="#3b2a73"/><text x="808" y="210">ML</text></g>
+  </g>
+</svg>
