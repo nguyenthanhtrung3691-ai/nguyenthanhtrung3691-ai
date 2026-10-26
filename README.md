@@ -1,18 +1,8 @@
-
 <p align="center">
   <img src="asset/header.svg" alt="Nguyễn Thành Trung" width="100%"/>
 </p>
-## 🧭 Journey
 
-<p align="center">
-  <img src="asset/journey.svg" alt="Career journey" width="100%"/>
-</p>
 
-## 🎯 Skills
-
-<p align="center">
-  <img src="asset/skills.svg" alt="Skills overview" width="100%"/>
-</p>
 # Hi, I'm Trung 👋
 
 **Online Travel Agent | Hotel Consultant | Finance | Data Analyst**
@@ -30,6 +20,18 @@ With nearly four years of experience across Hotel, OTA, Training and Customer Se
 - 🤖 Building small **automation tools** for repetitive hotel and OTA operations
 
 ---
+
+## 🧭 Journey
+
+<p align="center">
+  <img src="asset/journey.svg" alt="Career journey" width="100%"/>
+</p>
+
+## 🎯 Skills
+
+<p align="center">
+  <img src="asset/skills.svg" alt="Skills overview" width="100%"/>
+</p>
 
 ## 🧰 Tech Stack
 
