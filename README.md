@@ -15,7 +15,6 @@ With nearly four years of experience across Hotel, OTA, Training and Customer Se
 ## 🔭 What I'm doing now
 
 - 💼 **Operator Specialist (B2B) & Hotel Consultant** at Blue Sky Travel JSC (since Sep 2025)
-- 🎓 Studying **Finance & Banking** (second degree) at the University of Economics Ho Chi Minh City (UEH), 2026–2028
 - 📊 Learning and applying **SQL, Power BI, Python** and data-warehouse concepts on real hospitality problems
 - 🤖 Building small **automation tools** for repetitive hotel and OTA operations
 
